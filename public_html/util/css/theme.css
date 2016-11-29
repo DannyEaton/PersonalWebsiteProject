@@ -1,13 +1,104 @@
 .black{
 	background-color: #000;
 }
-
-.height-full{
-	height: 100%;
+.test{
+	background-color: salmon;
+}
+.test2{
+	background-color: gold;
+}
+.test3{
+	background-color: cyan;
+}
+.test4{
+	background-color: blueviolet;
 }
 
-.navbar-height{
-	height: 10vh;
-	background-color: cyan !important;
-	width: 10px;
+@media only screen and (max-width: 767px) {
+	.front-font {
+		font-size: 6rem;
+	}
+
+	.sub-front-font {
+		font-size: 4rem;
+	}
+	.section-font{
+		font-size: 4rem;
+	}
+}
+
+@media (min-width: 768px){
+	.front-font {
+		font-size: 7rem;
+	}
+	.sub-front-font{
+		font-size: 3rem;
+	}
+	.section-font{
+		font-size: 5rem;
+	}
+
+}
+
+@media (min-width: 992px){
+	.front-font {
+		font-size: 10rem;
+	}
+	.sub-front-font{
+		font-size: 5rem;
+	}
+	.section-font{
+		font-size: 7rem;
+	}
+
+}
+
+@media (min-width: 1200px){
+	.front-font {
+		font-size: 12rem;
+	}
+	.sub-front-font{
+		font-size: 6rem;
+	}
+	.section-font{
+		font-size: 10rem;
+	}
+}
+
+
+
+.brand-font{
+	font-family: "ADAM.CG PRO",sans-serif;
+	font-size: larger;
+}
+
+.backgroundImg {
+	background: url("img/bee-min.jpg");
+}
+
+.front-font {
+	margin-top: 10%;
+	margin-left: 5%;
+	font-family: "ADAM.CG PRO",sans-serif;
+}
+
+.sub-front-font{
+	margin-left: 5%;
+	font-family: "ADAM.CG PRO",sans-serif;
+}
+
+.section-font{
+	font-family: "ADAM.CG PRO",sans-serif;
+}
+
+.footer-text{
+	color: white;
+}
+
+.navbar-section{
+	color: black;
+}
+.navbar-section:hover{
+	color: white;
+	background: black;
 }
