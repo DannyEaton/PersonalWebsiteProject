@@ -9,25 +9,68 @@ body{
 
 /*********** EXTRA SMALL SCREEN MEDIA QUERIES **************/
 @media only screen and (max-width: 767px) {
+	/** DESIGN CHOICE **/
 	.design-choice-left{
-		height: 10vh;
-		margin-top: 3.5%;
+		height: 25vh;
+		margin-top: 7.5%;
 	}
 	.design-choice-right{
-		height: 10vh;
-		margin-top: 3.5%;
+		height: 25vh;
+		margin-top: 7.5%;
+	}
+
+	/** SEVICES **/
+
+	#services-container{
+		height: 120vh !important;
+	}
+
+	.sevices-image-container{
+		height:30vh;
+	}
+	#service-image-2{
+		visibility: hidden;
+		height:0;
+	}
+	#service-image-3{
+		visibility: hidden;
+		height:0;
+	}
+
+	/** FORM **/
+	form{
+		width: 80vw;
+	}
+	.btn{
+		margin-left: 35%;
 	}
 }
 
 /*********** SMALL SCREEN MEDIA QUERIES **************/
 @media (min-width: 768px){
 	.design-choice-left{
-		height: 15vh;
-		margin-top: 3.5%;
+		height: 25vh;
+		margin-top: 5%;
 	}
 	.design-choice-right{
-		height: 15vh;
-		margin-top: 3.5%;
+		height: 25vh;
+		margin-top: 5%;
+	}
+
+	/** SEVICES **/
+	.sevices-image-container{
+		height:20vh;
+	}
+	.services-image{
+		height: 20vh;
+	}
+
+	/** FORM **/
+	form{
+		width: 50vw;
+	}
+	.btn{
+		margin-left: 42.5%;
 	}
 }
 
@@ -41,17 +84,49 @@ body{
 		height: 17.5vh;
 		margin-top: 7.5%;
 	}
+
+	/** SEVICES **/
+	.sevices-image-container{
+		height:35vh;
+	}
+	.services-image{
+		height: 35vh;
+	}
+
+	/** FORM **/
+	form{
+		width: 50vw;
+	}
+
+
 }
 
 /*********** LARGE SCREEN MEDIA QUERIES **************/
 @media (min-width: 1200px){
 	.design-choice-left{
-		height: 20vh;
-		margin-top: 7.5%;
+		height: 18.5vh;
+		margin-top: 5%;
 	}
 	.design-choice-right{
-		height: 20vh;
-		margin-top: 7.5%;
+		height: 18.5vh;
+		margin-top: 5%;
+	}
+
+
+	/** SEVICES **/
+	.sevices-image-container{
+		height:40vh;
+	}
+	.services-image{
+		height: 40vh;
+	}
+
+	/** FORM **/
+	form{
+		width: 50vw;
+	}
+	.btn{
+		margin-left: 45%;
 	}
 }
 
@@ -63,7 +138,7 @@ body{
 	min-height: 50px;
 }
 .container{
-	width:100vw;
+	width:100%;
 }
 
 #nav-container{
@@ -77,19 +152,16 @@ body{
 
 #services-container{
 	height:100vh;
-	width: 100%;
 	overflow: hidden;
 }
 
 #design-container{
 	height:100vh;
-	width: 100%;
 	overflow: hidden;
 }
 
 #form-container{
-	height:100vh;
-	width: 100%;
+	height:110vh;
 	overflow: hidden;
 }
 
@@ -99,38 +171,31 @@ footer{
 }
 
 .services-image{
-	width:100%;
-	max-height:100%;
-}
+	width:60%;
+	margin-left: 20%;
+	margin-right: 20%;
 
-.sevices-image-container{
-	width: 100%;
-	height:40%;
 }
 
 .design-choice-left{
 	width: 100%;
-	border-bottom-right-radius: 3.5%;
-	border-bottom-left-radius: 20%;
-	border-top-right-radius: 20%;
-	border-top-left-radius: 3.5%;
-	border: #ff1810 medium solid;
-	padding: 12.5%;
-	color: white;
+	border-radius: 20px;
+	border: #70120F 10px solid;
+	padding: 5%;
+	color: #D69272;
 }
 
 .design-choice-right{
 	width: 100%;
-	border-bottom-right-radius: 20%;
-	border-bottom-left-radius: 3.5%;
-	border-top-right-radius: 3.5%;
-	border-top-left-radius: 20%;
-	border: #ff1810 medium solid;
-	padding: 12.5%;
-	color: white;
+	border-radius:20px;
+	border: #70120F 10px solid;
+	padding: 5%;
+	color: #D69272;
 }
 
-.form-container{
-	margin-top:2.5%;
-	height: 15vh;
+form{
+	margin: auto;
+	margin-top: 5vh;
+	padding: 2vh;
+	border-radius: 10px;
 }

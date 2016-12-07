@@ -1,3 +1,18 @@
+/**
+COLOR1: #744348
+COLOR2: #573132
+COLOR3: #602526
+COLOR4: #5C1817
+COLOR5: #70120F MAINNNN
+	COMPLIMENTARY: #D69272
+*/
+@font-face {
+	font-family: "MilkShake";
+	src: url("fonts/Milkshake.woff");
+}
+
+
+
 .black{
 	background-color: #000;
 }
@@ -15,12 +30,18 @@
 }
 
 @media only screen and (max-width: 767px) {
+	.logofont{
+		font-size: xx-large;
+	}
+
 	.front-font {
-		font-size: 6rem;
+		font-size: 5rem;
+		text-align: center;
 	}
 
 	.sub-front-font {
-		font-size: 4rem;
+		font-size: 2rem;
+		text-align:center;
 	}
 	.section-font{
 		font-size: 4rem;
@@ -28,6 +49,10 @@
 }
 
 @media (min-width: 768px){
+	.logofont{
+		font-size: x-large;
+	}
+
 	.front-font {
 		font-size: 7rem;
 	}
@@ -41,6 +66,10 @@
 }
 
 @media (min-width: 992px){
+	.logofont{
+		font-size: xx-large;
+	}
+
 	.front-font {
 		font-size: 10rem;
 	}
@@ -54,6 +83,10 @@
 }
 
 @media (min-width: 1200px){
+	.logofont{
+		font-size: xx-large;
+	}
+
 	.front-font {
 		font-size: 12rem;
 	}
@@ -65,7 +98,11 @@
 	}
 }
 
-
+.logofont{
+	margin-top: 5px;
+	font-family: "MilkShake", sans-serif;
+	text-align: center;
+}
 
 .brand-font{
 	font-family: "ADAM.CG PRO",sans-serif;
@@ -73,32 +110,65 @@
 }
 
 .backgroundImg {
-	background: url("img/bee-min.jpg");
+	background: url("img/bee-min.jpg")repeat fixed 100%;
+
 }
 
 .front-font {
 	margin-top: 10%;
 	margin-left: 5%;
-	font-family: "ADAM.CG PRO",sans-serif;
+	font-family: "MilkShake",sans-serif;
+	color: #70120F;
 }
 
 .sub-front-font{
 	margin-left: 5%;
-	font-family: "ADAM.CG PRO",sans-serif;
+	font-family: "MilkShake",sans-serif;
+	color: #573132;
 }
 
 .section-font{
-	font-family: "ADAM.CG PRO",sans-serif;
+	font-family: "MilkShake",sans-serif;
+	color: #D69272;
 }
 
 .footer-text{
 	color: white;
 }
-
+.logo-section{
+	color: #D69272;
+}
 .navbar-section{
-	color: black;
+	color: #D69272;
 }
 .navbar-section:hover{
-	color: white;
-	background: black;
+	color: #70120F;
+	background: #D69272;
+}
+
+#nav-container{
+	background-color: #70120F;
+	position: static;
+}
+
+#design-container {
+	background: url("img/bee-min.jpg")repeat fixed 100%;
+}
+
+#services-container{
+	background: #232526; /* fallback for old browsers */
+	background: -webkit-linear-gradient(to left, #232526 , #414345); /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to left, #232526 , #414345); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+#form-container{
+	background: #70120F; /* fallback for old browsers */
+	background: -webkit-linear-gradient(to left, #744348 , #70120F); /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to left, #744348 , #70120F); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.services-font{
+	margin-top: 2.5vh;
+	font-family: "ADAM.CG PRO",sans-serif;
+	color: #D69272;
 }
