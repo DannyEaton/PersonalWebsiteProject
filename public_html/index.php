@@ -18,13 +18,13 @@
 				<div class="logo-section navbar-brand col-xs-12 col-sm-3 col-sm-offset-1 headernav">
 					<div class="logofont">Sycamore Holler</div>
 				</div>
-				<div id="target" class="navbar-section navbar-brand col-xs-12 col-sm-2 col-sm-offset-2 logofont headernav ">
+				<div id="services-header" class="navbar-section navbar-brand col-xs-12 col-sm-2 col-sm-offset-2 logofont headernav">
 					Services
 				</div>
-				<div class="navbar-section navbar-brand col-xs-12 col-sm-2 logofont headernav">
+				<div id="design-header" class="navbar-section navbar-brand col-xs-12 col-sm-2 logofont headernav">
 					Designs
 				</div>
-				<div class="navbar-section navbar-brand col-xs-12 col-sm-2 logofont headernav">
+				<div id="form-header" class="navbar-section navbar-brand col-xs-12 col-sm-2 logofont headernav">
 					Quote
 				</div>
 			</nav>
@@ -64,10 +64,7 @@
 			</div>
 			<div class="row">
 				<div class="col-xs-12 services-font">
-					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent dictum pulvinar varius. Curabitur posuere, velit at viverra vulputate, leo odio molestie nibh, semper consequat sem nisl ac ipsum. Aliquam vehicula orci nec ipsum bibendum, nec suscipit purus auctor. Vivamus non elit in eros bibendum porttitor. Maecenas sit amet diam scelerisque quam aliquet porttitor. Aenean malesuada, purus vel auctor malesuada, libero nisi imperdiet dui, in porttitor sem purus vitae felis. In ultricies quam nisi, et euismod lacus venenatis eget. Pellentesque porttitor tristique arcu, et semper leo sodales et. Donec ornare, lacus nec fermentum hendrerit, purus tortor dictum quam, et consequat arcu justo id lectus. Sed cursus pretium nunc, in scelerisque purus ullamcorper in. Nam tempor nisl quis finibus blandit. Morbi gravida volutpat justo, sed accumsan felis tempor at. Donec et suscipit nibh. Proin lorem libero, dictum scelerisque tristique ut, efficitur sit amet tortor.
-					Nunc varius, dui sed laoreet mollis, est massa iaculis ligula, a venenatis nulla lacus ut lectus. Vestibulum vitae sem ut nisl imperdiet consequat vel id mauris. Aenean in sapien rhoncus, posuere dui nec, pellentesque libero. Integer in tincidunt ligula. Donec at porta mi. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Interdum et malesuada fames ac ante ipsum primis in faucibus. Vestibulum et justo augue. Pellentesque quam orci, tristique vel magna id, finibus fermentum dolor. Vestibulum id dictum urna, quis mollis velit.
-					Nullam vel ligula vitae risus ornare suscipit. Aliquam ut imperdiet arcu. Nunc eu libero a libero sodales consequat id id dui. Sed dictum eleifend nunc, et porta velit sodales iaculis. In vehicula eu dui congue sodales. Praesent efficitur felis nibh, ut egestas arcu interdum eu. Duis laoreet, lorem pharetra ullamcorper tincidunt, quam sem imperdiet quam, id scelerisque enim sapien vel diam. Praesent venenatis leo leo, ac tincidunt massa vestibulum commodo. Nullam nec ligula leo. Proin congue, ipsum elementum ullamcorper ultrices, velit lorem dignissim libero, sed sagittis tortor ante sed orci. Ut ac vulputate purus, ac porta massa.
-				</div>
+					Sycamore Holler is a well known  web development firm established in Albuquerque, New Mexico. Our web developers are very passionate and love what they do, which separates us from most firms in the United States. We also work with the latest technology, such as Angular 2, React, and Vue, along with tried and true languages such as HTML5, CSS, Javascript, PHP, and Java. Our front end developers are second to none and have been working in the software industry for over 25 years. Our sales representatives work with both you and our developers every step of the way to make sure your needs are met, because at Sycamore Holler we value customer service. Whether you are looking to have your website touched up or are creating the next Artificial Intelligence Service, Sycamore Holler Web Development will accomodate your every need. We are located at 1600 Pennsylvania Avenue if you ever want to step inside our offices or you can scroll to the bottom of our website to fill out our form, which is said to be one of best forms on the internet today.</div>
 			</div>
 		</section>
 		<!----------------------- DESIGN SECTION   -------------------------------->
@@ -79,26 +76,26 @@
 			</div>
 			<div class="row">
 				<div class="col-xs-6 col-md-offset-1 col-md-4">
-					<div class="design-choice-left text-center logofont">Design</div>
+					<a data-toggle="modal" data-target="#modal1"><div id="design1" class="design-choice-left text-center logofont">Buttons</div></a>
 				</div>
 				<div class="col-xs-6 col-md-offset-2 col-md-4">
-					<div class="design-choice-right text-center logofont">Design</div>
+					<a data-toggle="modal" data-target="#modal2"><div id="design2" class="design-choice-right text-center logofont">Gradients</div></a>
 				</div>
 			</div>
 			<div class="row">
 				<div class="col-xs-6 col-md-offset-1 col-md-4">
-					<div class="design-choice-left text-center logofont">Design</div>
+					<a data-toggle="modal" data-target="#modal3"> <div id="design3" class="design-choice-left text-center logofont">Animation</div></a>
 				</div>
 				<div class="col-xs-6 col-md-offset-2 col-md-4">
-					<div class="design-choice-right text-center logofont">Design</div>
+					<a data-toggle="modal" data-target="#modal4"><div id="design4" class="design-choice-right text-center logofont">Design</div></a>
 				</div>
 			</div>
 			<div class="row">
 				<div class="col-xs-6 col-md-offset-1 col-md-4">
-					<div class="design-choice-left text-center logofont">Design</div>
+					<a data-toggle="modal" data-target="#modal5"> <div id="design5" class="design-choice-left text-center logofont">Design</div></a>
 				</div>
 				<div class="col-xs-6 col-md-offset-2 col-md-4">
-					<div class="design-choice-right text-center logofont">Design</div>
+					<a data-toggle="modal" data-target="#modal6"><div id="design6" class="design-choice-right text-center logofont">Design</div></a>
 				</div>
 			</div>
 		</section>
@@ -111,18 +108,18 @@
 				</div>
 			</div>
 			<!---------- FORM BEGINS HERE ----------->
-			<form class="test">
+			<form class="test" id="contact-form" action="util/php-mailer.php" method="post">
 			<div class="row">
 				<div class="col-sm-12 form-container">
 					<div class="form-group">
 						<label for="firstName">First Name</label>
-						<input type="text" class="form-control" id="firstName" placeholder="First Name">
+						<input type="text" name="firstName" class="form-control" id="firstName" placeholder="First Name">
 					</div>
 				</div>
 				<div class="col-sm-12 form-container">
 					<div class="form-group">
 						<label for="lastName">Last Name</label>
-						<input type="text" class="form-control" id="lastName" placeholder="Last Name">
+						<input type="text" name="lastName" class="form-control" id="lastName" placeholder="Last Name">
 					</div>
 				</div>
 			</div>
@@ -130,13 +127,13 @@
 				<div class="col-sm-12 form-container">
 					<div class="form-group">
 						<label for="emailAddress">Email address</label>
-						<input type="email" class="form-control" id="emailAddress" placeholder="Email">
+						<input type="email" name="emailAddress" class="form-control" id="emailAddress" placeholder="Email">
 					</div>
 				</div>
 				<div class="col-sm-12 form-container">
 					<div class="form-group">
 						<label for="telephoneNumber">Telephone</label>
-						<input type="tel" class="form-control" id="telephoneNumber" placeholder="Telephone">
+						<input type="tel" name="telephoneNumber" class="form-control" id="telephoneNumber" placeholder="Telephone">
 					</div>
 				</div>
 			</div>
@@ -144,11 +141,12 @@
 				<div class="col-xs-12 form-container">
 					<div class="form-group">
 						<label for="information">General Information About Request</label>
-						<textarea class="form-control" id="information" placeholder="Information">
+						<textarea class="form-control" name="information" id="information" placeholder="Information">
 						</textarea>
 					</div>
 				</div>
 			</div>
+				<div class="g-recaptcha" data-sitekey="6LfZHg4UAAAAAA6BKK1lmjT3rxSwE9edmE4WwQqR"></div>
 				<button type="submit" class="btn btn-default">Submit</button>
 			</form>
 		</section>
@@ -159,6 +157,157 @@
 				</div>
 			</div>
 		</footer>
+		<!-------------------- MODAL 1 -------------------------------->
+		<div id="myModal" class="modal fade" role="dialog">
+			<div class="modal-dialog">
+				<!-- Modal content-->
+				<div class="modal-content">
+					<div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal">&times;</button>
+						<h4 class="modal-title">Modal Header</h4>
+					</div>
+					<div class="modal-body">
+						<p>Some text in the modal.</p>
+					</div>
+					<div class="modal-footer">
+						<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-------------------- MODAL 1 -------------------------------->
+		<div id="modal1" class="modal fade" role="dialog">
+			<div class="modal-dialog">
+				<!-- Modal content-->
+				<div class="modal-content">
+					<div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal">&times;</button>
+						<h4 class="modal-title">Modal Header</h4>
+					</div>
+					<div class="modal-body">
+						<!-- Standard button -->
+						<button type="button" class="btn btn-default">Default</button>
+
+						<!-- Provides extra visual weight and identifies the primary action in a set of buttons -->
+						<button type="button" class="btn btn-primary">Primary</button>
+
+						<!-- Indicates a successful or positive action -->
+						<button type="button" class="btn btn-success">Success</button>
+
+						<!-- Contextual button for informational alert messages -->
+						<button type="button" class="btn btn-info">Info</button>
+
+						<!-- Indicates caution should be taken with this action -->
+						<button type="button" class="btn btn-warning">Warning</button>
+
+						<!-- Indicates a dangerous or potentially negative action -->
+						<button type="button" class="btn btn-danger">Danger</button>
+
+						<!-- Deemphasize a button by making it look like a link while maintaining button behavior -->
+						<button type="button" class="btn btn-link">Link</button>
+					</div>
+					<div class="modal-footer">
+						<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-------------------- MODAL 2 -------------------------------->
+		<div id="modal2" class="modal fade" role="dialog">
+			<div class="modal-dialog">
+				<!-- Modal content-->
+				<div class="modal-content gradient">
+					<div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal">&times;</button>
+						<h4 class="modal-title">Modal Header</h4>
+					</div>
+					<div class="modal-body">
+						<p>This is a gradient, made with the finest colors.</p>
+					</div>
+					<div class="modal-footer">
+						<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-------------------- MODAL 3 -------------------------------->
+		<div id="modal3" class="modal fade" role="dialog">
+			<div class="modal-dialog">
+				<!-- Modal content-->
+				<div class="modal-content">
+					<div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal">&times;</button>
+						<h4 class="modal-title">Modal Header</h4>
+					</div>
+					<div class="modal-body">
+						<p class="animated flip">This Modal Is Animated</p>
+					</div>
+					<div class="modal-footer">
+						<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-------------------- MODAL 1 -------------------------------->
+		<div id="modal4" class="modal fade" role="dialog">
+			<div class="modal-dialog">
+				<!-- Modal content-->
+				<div class="modal-content">
+					<div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal">&times;</button>
+						<h4 class="modal-title">Modal Header</h4>
+					</div>
+					<div class="modal-body">
+						<p>Some text in the modal.</p>
+					</div>
+					<div class="modal-footer">
+						<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-------------------- MODAL 1 -------------------------------->
+		<div id="modal5" class="modal fade" role="dialog">
+			<div class="modal-dialog">
+				<!-- Modal content-->
+				<div class="modal-content">
+					<div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal">&times;</button>
+						<h4 class="modal-title">Modal Header</h4>
+					</div>
+					<div class="modal-body">
+						<p>Some text in the modal.</p>
+					</div>
+					<div class="modal-footer">
+						<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-------------------- MODAL 1 -------------------------------->
+		<div id="modal6" class="modal fade" role="dialog">
+			<div class="modal-dialog">
+				<!-- Modal content-->
+				<div class="modal-content">
+					<div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal">&times;</button>
+						<h4 class="modal-title">Modal Header</h4>
+					</div>
+					<div class="modal-body">
+						<p>Some text in the modal.</p>
+					</div>
+					<div class="modal-footer">
+						<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+					</div>
+				</div>
+			</div>
+		</div>
 	</body>
 	<script src="util/general.js"></script>
 </html>

@@ -105,11 +105,11 @@ body{
 @media (min-width: 1200px){
 	.design-choice-left{
 		height: 18.5vh;
-		margin-top: 5%;
+		margin-top: 10.5%;
 	}
 	.design-choice-right{
 		height: 18.5vh;
-		margin-top: 5%;
+		margin-top: 10.5%;
 	}
 
 
@@ -161,8 +161,9 @@ body{
 }
 
 #form-container{
-	height:110vh;
+	height:120vh;
 	overflow: hidden;
+
 }
 
 footer{
@@ -188,9 +189,7 @@ footer{
 .design-choice-right{
 	width: 100%;
 	border-radius:20px;
-	border: #70120F 10px solid;
 	padding: 5%;
-	color: #D69272;
 }
 
 form{

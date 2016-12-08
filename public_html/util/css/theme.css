@@ -110,7 +110,7 @@ COLOR5: #70120F MAINNNN
 }
 
 .backgroundImg {
-	background: url("img/bee-min.jpg")repeat fixed 100%;
+	background: url("img/fakeoffice.png")repeat fixed 100%;
 
 }
 
@@ -118,13 +118,13 @@ COLOR5: #70120F MAINNNN
 	margin-top: 10%;
 	margin-left: 5%;
 	font-family: "MilkShake",sans-serif;
-	color: #70120F;
+	color: #D69272;
 }
 
 .sub-front-font{
 	margin-left: 5%;
 	font-family: "MilkShake",sans-serif;
-	color: #573132;
+	color: #D69272;
 }
 
 .section-font{
@@ -133,6 +133,7 @@ COLOR5: #70120F MAINNNN
 }
 
 .footer-text{
+	margin-top: 5px;
 	color: white;
 }
 .logo-section{
@@ -152,7 +153,7 @@ COLOR5: #70120F MAINNNN
 }
 
 #design-container {
-	background: url("img/bee-min.jpg")repeat fixed 100%;
+	background: url("img/fakeoffice.png")repeat fixed 100%;
 }
 
 #services-container{
@@ -171,4 +172,85 @@ COLOR5: #70120F MAINNNN
 	margin-top: 2.5vh;
 	font-family: "ADAM.CG PRO",sans-serif;
 	color: #D69272;
+}
+#services-header{
+	transition-property: background-color, color;
+	transition-duration: 3s;
+	transition-timing-function: ease-out;
+	background-color: #70120F;
+}
+
+#services-header:hover{
+	transition-property: background-color, color;
+	transition-duration: 3s;
+	transition-timing-function: ease-out;
+	background-color:#D69272;
+}
+
+#design-header{
+	transition-property: background-color, color;
+	transition-duration: 3s;
+	transition-timing-function: ease-out;
+	background-color: #70120F;
+}
+
+#form-header:hover{
+	transition-property: background-color, color;
+	transition-duration: 3s;
+	transition-timing-function: ease-out;
+	background-color:#D69272;
+}
+
+#form-header{
+	transition-property: background-color, color;
+	transition-duration: 3s;
+	transition-timing-function: ease-out;
+	background-color: #70120F;
+}
+
+#design-header:hover{
+	transition-property: background-color, color;
+	transition-duration: 3s;
+	transition-timing-function: ease-out;
+	background-color:#D69272;
+}
+
+.design-choice-left{
+	transition-property: background-color, color, border-color;
+	transition-duration: 3s;
+	transition-timing-function: ease-out;
+	border: #70120F 10px solid;
+	color: #D69272;
+}
+
+.design-choice-right{
+	transition-property: background-color, color, border-color;
+	transition-duration: 3s;
+	transition-timing-function: ease-out;
+	border: #70120F 10px solid;
+	color: #D69272;
+}
+
+.design-choice-left:hover{
+	transition-property: background-color, color, border-color;
+	transition-duration: 3s;
+	transition-timing-function: ease-out;
+	border: white 10px solid;
+	background-color: #D69272;
+	color: #70120F;
+}
+
+.design-choice-right:hover{
+	transition-property: background-color, color, border-color;
+	transition-duration: 3s;
+	transition-timing-function: ease-out;
+	border: white 10px solid;
+	background-color: #D69272;
+	color: #70120F;
+}
+
+.gradient{
+	background: #DAD299;
+	background: -webkit-linear-gradient(to left, #DAD299 , #B0DAB9);
+	background: linear-gradient(to left, #DAD299 , #B0DAB9);
 }
